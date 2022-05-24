@@ -70,7 +70,7 @@ def main(fileName):
     for pivotID in pivotList:
         A = loadData(fileName)
         (A, n) = quickSort(A,0,len(A)-1,pivotID)
-        print "number of comparisons: %d", n
+        print("number of comparisons: %d", n)
 
 
     
